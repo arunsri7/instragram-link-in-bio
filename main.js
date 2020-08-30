@@ -2,7 +2,7 @@ var cardTemplate;
 
 const getVideos = (resp) => {
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://link-in-bio.vercel.app/api/youtube-videos');
+    xhr.open('GET', 'https://instragram-radhika.vercel.app/api/youtube-videos');
     xhr.send();
     xhr.onload = function() {
         if (xhr.status != 200) {
