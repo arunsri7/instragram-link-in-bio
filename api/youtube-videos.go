@@ -35,7 +35,7 @@ type Video struct {
 }
 
 var (
-	baseURL    = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UU9eTgNyhtPaVf7h-YEo-R2w&key=%s&maxResults=%d"
+	baseURL    = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUetzEzFPPQz5eFHHjkb0NTw&key=%s&maxResults=%d"
 	key        = os.Getenv("YOUTUBE_API_KEY")
 	maxResults = 10
 )
